@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: CustomerMS
+
+#tomcat server port number
+server:
+  port: 4570
+
+#Specify the Eureka server details here
+#This application will be registerd to Eureka mentioned here
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:4567/eureka/  
